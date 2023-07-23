@@ -1,0 +1,101 @@
+html {
+  background: rgb(231, 203, 201);
+}
+body {
+  background: #f5f5f0;
+  color: black;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  box-sizing: border-box;
+  padding: 0;
+  margin: auto;
+  max-width: 95vw;
+}
+h1 {
+  margin-bottom: 0;
+  padding-bottom: 1rem;
+}
+a {
+  text-decoration: none;
+}
+.list-movies-title {
+  padding: 10px 0;
+  background: rgb(160, 8, 8);
+  color: white;
+  text-align: center;
+  font-size: 16pt;
+}
+
+.movie-grid {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  background: lightpink;
+  padding-top: 0.75rem;
+}
+
+.movie-grid li {
+  padding: 10px 15px;
+  text-align: left;
+}
+
+.movie {
+  width: 140px;
+  position: relative;
+  transition: all linear 0.22s;
+}
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltip .tooltip-text {
+  bottom: 50%;
+  right: -20%;
+  visibility: hidden;
+  position: absolute;
+  z-index: 1;
+  font-size: 0.75rem;
+  padding: 1.5px 1.25px;
+  width: auto;
+  background-color: aliceblue;
+  overflow: visible;
+  text-transform: capitalize;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.tooltip:hover .tooltip-text {
+  visibility: visible;
+}
+
+.movie-title,
+.movie-year,
+.rating {
+  font-size: 0.8em;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.movie-title {
+  margin-top: 10px;
+  margin-bottom: 0;
+  letter-spacing: 1px;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+
+.movie-year,
+.rating {
+  color: #999;
+  margin-top: 0;
+}
+
+.movie-poster {
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  width: 128px;
+  height: 193px;
+}
