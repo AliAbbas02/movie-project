@@ -1,0 +1,32 @@
+{
+  "movies": {
+    "Batman": {
+      "rating": 7.5,
+      "year": 1989,
+      "img_url": "https://m.media-amazon.com/images/M/MV5BMTYwNjAyODIyMF5BMl5BanBnXkFtZTYwNDMwMDk2._V1_SX300.jpg",
+      "imdbID": "Batman",
+      "country": "United States, United Kingdom"
+    },
+    "Joker": {
+      "rating": 8.4,
+      "year": 2019,
+      "img_url": "https://m.media-amazon.com/images/M/MV5BNGVjNWI4ZGUtNzE0MS00YTJmLWE0ZDctN2ZiYTk2YmI3NTYyXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_SX300.jpg",
+      "imdbID": "Joker",
+      "country": "United States, Canada"
+    },
+    "Scream": {
+      "rating": 7.4,
+      "year": 1996,
+      "img_url": "https://m.media-amazon.com/images/M/MV5BMjA2NjU5MTg5OF5BMl5BanBnXkFtZTgwOTkyMzQxMDE@._V1_SX300.jpg",
+      "imdbID": "Scream",
+      "country": "United States"
+    },
+    "The Last Laugh": {
+      "rating": 8.0,
+      "year": 1924,
+      "img_url": "https://m.media-amazon.com/images/M/MV5BOTBjM2M1Y2ItYTVmMi00NmY0LWIyYjEtNzVhM2UzMzNhMzVkXkEyXkFqcGdeQXVyMzg1ODEwNQ@@._V1_SX300.jpg",
+      "imdbID": "The Last Laugh",
+      "country": "Germany"
+    }
+  }
+}
